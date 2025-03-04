@@ -1,4 +1,4 @@
-<h2> Formulário Web 🌐 </h2>
+<h2> Projeto de Formulário 🌐 </h2>
 
 <p> Desenvolvi este formulário em HTML & CSS com o intuito de servir como uma página onde será possível realizar o preenchimento com Selenium, biblioteca do Python com informações de funcionários provenientes de um SGBD. </p>
 
