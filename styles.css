@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Helvetica, sans-serif;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: #9932CC;
+    padding-top: 2px;
+    margin-bottom: 10px;
+}
+
+p {
+    padding: 5px;
+    text-align: center;
+}
+
+.formulario {
+    background-color: #1A1A1A;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 20px 32px;
+    margin-block: 30px;
+}
+
+label {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+input {
+    padding: 2px 40px;
+    border-radius: 5px;
+}
+
+.botao input {
+    background-color: #9932CC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+    position: relative;
+    padding: 5px;
+    top: -15px;
+}
