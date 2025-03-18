@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário de Cadastro</title>
+        <link rel="icon" href="c_letter_logo.png" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Sistema de Cadastro de funcionários</h1>
+            <p>
+                Preencha os campos abaixo para cadastrar novos funcionários e
+                envie-os após preenchidos
+            </p>
+        </header>
+
+        <form action="" method="post" class="formulario">
+            <div id="campo-nome">
+                <label for="name">Seu nome completo:</label>
+                <input
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    min="10"
+                    max="120"
+                    placeholder="Seu nome"
+                    required
+                />
+            </div>
+
+            <div id="campo-email">
+                <label for="email">E-mail:</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    min="12"
+                    max="120"
+                    placeholder="Seu e-mail"
+                    required
+                />
+            </div>
+
+            <div id="campo-idade">
+                <label for="idade">Idade:</label>
+                <input
+                    type="number"
+                    name="idade"
+                    id="idade"
+                    min="18"
+                    max="100"
+                    placeholder="Sua idade"
+                    required
+                />
+            </div>
+
+            <div id="campo-telefone">
+                <label for="telefone">Telefone:</label>
+                <input
+                    type="tel"
+                    name="telefone"
+                    id="telefone"
+                    min="13"
+                    max="17"
+                    placeholder="Seu telefone"
+                    required
+                />
+            </div>
+
+            <div id="botao">
+                <input type="submit" value="Enviar" id="enviar" />
+            </div>
+        </form>
+
+        <footer>
+            <p>&copy; Caio Dorfmam - 2025 - Todos os direitos reservados.</p>
+
+            <a href="https://github.com/dorfmam/main" target="_blank">
+                <img
+                    src="github_logo.png"
+                    alt="GitHub"
+                    width="30"
+                    height="30"
+                />
+            </a>
+            <a
+                href="https://www.linkedin.com/in/caio-dorfmam-156a43334"
+                target="_blank"
+            >
+                <img
+                    src="linkedin_logo.png"
+                    alt="LinkedIn"
+                    width="30"
+                    height="30"
+                />
+            </a>
+            <a href="https://www.instagram.com/syscayus/" target="_blank">
+                <img
+                    src="instagram_logo.png"
+                    alt="Instagram"
+                    width="30"
+                    height="30"
+                />
+            </a>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
