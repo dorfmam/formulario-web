@@ -1,8 +1,8 @@
 body {
     font-family: Calibri;
     font-size: 18px;
-    background-color: #1f1f60;
-    color: #ffffff;
+    background-color: #f8f8ff;
+    color: rgb(85, 85, 85);
     text-align: center;
     margin: 0;
     height: 100vh;
@@ -12,71 +12,61 @@ body {
     flex-direction: column;
 }
 
-h1 {
+#titulo {
     text-align: center;
-    color: #33cc33;
-    padding: none;
-    margin-bottom: 3px;
+    color: #1a1a1a;
 }
 
-p {
-    padding: 8px;
+#paragrafo {
     text-align: center;
 }
 
 .formulario {
-    background-color: #1f1f60;
-    border: 2px solid #33cc33;
+    background-color: #f8f8ff;
+    border: none;
     border-radius: 30px;
     padding: 12px;
-    margin-block: 50px;
+    margin-top: 20px;
     width: 300px;
-    margin-top: 8px;
+    box-shadow: 0 0 8px #1a1a1a;
 }
 
 label {
     display: block;
     font-size: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: left;
     padding: 3px;
     margin: 5px;
 }
 
+/* Input dos campos do formulário */
 input {
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 12px;
     width: 80%;
-    border: 3px solid #1f1f60;
+    border: 2px solid #666;
 }
 
-.botao {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    margin: 8px auto 0;
-}
-
-.botao input {
-    background-color: #33cc33;
-    color: #0d0d0d;
+#botao input {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin-top: 10px;
+    display: inline;
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    transition: all 300ms linear;
+}
+
+#botao input:hover {
+    background: #1e90ff;
 }
 
 footer {
-    position: absolute;
-    color: white;
-    text-align: center;
-    bottom: 3px;
-    width: 100%;
-}
-
-a {
-    color: #ffd700;
-    text-decoration: none;
     position: relative;
-    padding: 5px;
-    top: -15px;
+    color: rgb(85, 85, 85);
+    text-align: center;
+    width: 100%;
+    top: 20px;
 }
