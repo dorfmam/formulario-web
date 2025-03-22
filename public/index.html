@@ -10,22 +10,24 @@
 
     <body>
         <header>
-            <h1>Sistema de Cadastro de funcionários</h1>
-            <p>
+            <h1 id="titulo">Sistema de Cadastro de Funcionários</h1>
+            <p id="paragrafo">
                 Preencha os campos abaixo para cadastrar novos funcionários e
                 envie-os após preenchidos
             </p>
         </header>
 
-        <form action="" method="post" class="formulario">
+        <form
+            action="http://localhost:3000/cadastro"
+            method="post"
+            class="formulario"
+        >
             <div id="campo-nome">
                 <label for="name">Seu nome completo:</label>
                 <input
                     type="text"
                     name="nome"
                     id="nome"
-                    min="10"
-                    max="120"
                     placeholder="Seu nome"
                     required
                 />
@@ -37,8 +39,6 @@
                     type="email"
                     name="email"
                     id="email"
-                    min="12"
-                    max="120"
                     placeholder="Seu e-mail"
                     required
                 />
@@ -63,8 +63,6 @@
                     type="tel"
                     name="telefone"
                     id="telefone"
-                    min="13"
-                    max="17"
                     placeholder="Seu telefone"
                     required
                 />
@@ -77,35 +75,8 @@
 
         <footer>
             <p>&copy; Caio Dorfmam - 2025 - Todos os direitos reservados.</p>
-
-            <a href="https://github.com/dorfmam/main" target="_blank">
-                <img
-                    src="github_logo.png"
-                    alt="GitHub"
-                    width="30"
-                    height="30"
-                />
-            </a>
-            <a
-                href="https://www.linkedin.com/in/caio-dorfmam-156a43334"
-                target="_blank"
-            >
-                <img
-                    src="linkedin_logo.png"
-                    alt="LinkedIn"
-                    width="30"
-                    height="30"
-                />
-            </a>
-            <a href="https://www.instagram.com/syscayus/" target="_blank">
-                <img
-                    src="instagram_logo.png"
-                    alt="Instagram"
-                    width="30"
-                    height="30"
-                />
-            </a>
         </footer>
+
         <script src="script.js"></script>
     </body>
 </html>
