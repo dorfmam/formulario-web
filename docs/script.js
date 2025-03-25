@@ -22,6 +22,6 @@ document
             alert(resultado.message);
         } catch (error) {
             console.error("Erro ao enviar os dados:", error);
-            alert("Erro ao cadastrar o funcionário. Tente novamente.");
+            alert("Erro ao cadastrar o funcionário.");
         }
     });
