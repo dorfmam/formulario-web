@@ -17,11 +17,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Utiliza o Middleware para servir os arquivos estáticos
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "docs")));
 
 // Serve o HTML, obtendo o arquivo "index.html"
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "public", "index.html"));
+    res.sendFile(path.join(__dirname, "docs", "index.html"));
 });
 
 // Define a rota POST para receber os cadastros
@@ -37,7 +37,7 @@ app.post("/cadastro", (req, res) => {
 
     console.log("Novo cadastro enviado: ", req.body);
 
-    res.status(200).json({ message: "Cadastro realizado com sucesso!" });
+    res.redirect("/confirmed.html");
 });
 
 // Executa a aplicação na porta 3000
