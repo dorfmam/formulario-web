@@ -1,11 +1,12 @@
-<h2> Projeto de Formulário 🌐 </h2>
+<h2> Formulário Dinâmico + Servidor Web 🌐 </h2>
 
-<p> Desenvolvi este formulário em HTML & CSS com o intuito de servir como uma página onde será possível realizar o preenchimento com Selenium, biblioteca do Python com informações de funcionários provenientes de um SGBD. </p>
+<h2> O Que É O Projeto? 💡 </h2>
 
-<h2> Informações Importantes 🛑 </h2>
-
-<p> Para deixar o formulário ainda mais intuitivo, o próximo objetivo que irei desenvolver é adicionar um arquivo JavaScript para atribuir responsividade ao site, sendo assim, mais funcionalidades serão inclusas no formulário em si tanto nos arquivos "index.html", "styles.css" e "script.js" assim que eu disponibilizar o site. </p>
+<p> Este projeto se trata de um formulário desenvolvido com HTML, CSS e JavaScript, na qual é utilizado para uma automação web com Python e Selenium, um servidor Node.js e seu framework Express.js, que exibe os dados de cada formulário enviado com sucesso no terminal. </p>
 
 <h2> Como Utilizar? ✅ </h2>
 
-<p> Para utilizar o projeto, basta clonar este repositório que todos os arquivos serão copiados para a pasta de sua preferência, você pode tanto utilizar o Go Live para visualizar o site ao vivo, caso deseje atribuir alguma modificação, ou acessar diretamente o site do formulário para o visualizar na web. O link do meu site é: https://dorfmam.github.io/formulario-web/ </p>
+<p> Clone este repositório e o repositório "Automação" utilizando o comando `git clone`; </p>
+<p> Instale o Node.js em seu site oficial, caso ainda esteja instalado; </p>
+<p> Inicialize o servidor com o comando `node server.js`; </p>
+<p> Execute `main.py` e a automação estará rodando. </p>
